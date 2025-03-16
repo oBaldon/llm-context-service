@@ -14,6 +14,9 @@ Ele recebe via API REST um texto e retorna uma resposta estruturada com **contex
   - `meta-llama/Llama-3.2-1B-Instruct`
   - `meta-llama/Llama-3.2-3B`
   - `meta-llama/Llama-3.2-3B-Instruct`
+  - `meta-llama/Meta-Llama-3.1-8B-Instruct`
+  - `meta-llama/Meta-Llama-3.1-70B-Instruct`
+  - `meta-llama/Llama-3.3-70B-Instruct`
 - Estrutura de resposta padronizada no formato:
   - `"system"`, `"user"` e `"assistant"`
 - Salvamento automático do resultado como `.json` e `.txt`.

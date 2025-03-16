@@ -2,8 +2,10 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from services.model_service import analyze_text
 from utils import save_output
+from services.execution_time import ExecutionTimeMiddleware
 
 app = FastAPI(title="LLM Context Analyzer")
+app.middleware("http")(ExecutionTimeMiddleware(app))
 
 class AnalyzeRequest(BaseModel):
     text: str
