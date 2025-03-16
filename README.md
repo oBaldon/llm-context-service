@@ -35,7 +35,7 @@ Ele recebe via API REST um texto e retorna uma resposta estruturada com **contex
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/seu_usuario/llm-context-service.git
+git clone https://github.com/oBaldon/llm-context-service.git
 cd llm-context-service
 ```
 
