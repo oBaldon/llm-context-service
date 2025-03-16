@@ -1,6 +1,6 @@
 import torch
 from transformers import pipeline
-
+"""
 model_id = "meta-llama/Llama-3.3-70B-Instruct"
 pipe = pipeline(
     "text-generation",
@@ -16,3 +16,4 @@ def run(text: str) -> str:
     ]
     result = pipe(messages, max_new_tokens=512)
     return result[0]["generated_text"]
+"""

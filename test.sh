@@ -20,7 +20,7 @@ curl -s -D "$HEADER_FILE" -o "$BODY_FILE" -X POST http://localhost:8000/analyze 
   -H "Content-Type: application/json" \
   -d '{
     "text": "'"$(cat ./tests/sample_text.txt | sed 's/"/\\"/g')"'", 
-    "model": "llama-3.2-3b-instruct"
+    "model": "llama-3.1-8b-instruct"
   }'
 
 # Exibe o caminho dos arquivos salvos
